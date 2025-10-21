@@ -6,15 +6,17 @@
 
 === Start database
 
-```shell
+[source,shell]
+----
 docker run -d -p 5442:5432 ghusta/postgres-world-db:2.13
-```
+----
 
 === Start Spring Boot server
 
-```shell
+[source,shell]
+----
 mvn spring-boot:run
-```
+----
 
 == OpenAPI artefacts
 
