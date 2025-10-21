@@ -28,6 +28,27 @@ mvn spring-boot:run
 
 * http://localhost:8080/api-docs
 
+== Using an external Swagger UI instance
+
+An external Swagger UI instance can be used to consume our OpenAPI spec.
+
+Using Docker :
+
+[source,bash]
+----
+docker run -d -p 8090:8080 -e URL=http://localhost:8080/api-docs swaggerapi/swagger-ui
+----
+
+NOTE: CORS is enabled by default in the Docker image, using the environment variable `CORS=true`.
+
+The CORS configuration need to be updated in the API server, for example :
+
+[source]
+.application.properties
+----
+custom.external-swagger-ui.cors.allowed-origins=http://localhost:8090
+----
+
 == References
 
 * OpenAPI
