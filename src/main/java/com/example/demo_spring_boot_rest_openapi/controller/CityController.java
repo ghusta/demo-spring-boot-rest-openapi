@@ -4,7 +4,6 @@ import com.example.demo_spring_boot_rest_openapi.dao.CityRepository;
 import com.example.demo_spring_boot_rest_openapi.exception.ResourceNotFoundException;
 import com.example.demo_spring_boot_rest_openapi.persistence.City;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import io.swagger.v3.oas.annotations.tags.Tags;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/cities")
-@Tags(@Tag(name = "city"))
+@Tag(name = "city")
 public class CityController {
 
     private final CityRepository cityRepository;
