@@ -1,0 +1,33 @@
+= Demo project for Spring Boot + REST API + OpenAPI support
+:toc:
+:imagesdir: assets/images
+
+== Getting started
+
+=== Start database
+
+```shell
+docker run -d -p 5442:5432 ghusta/postgres-world-db:2.13
+```
+
+=== Start Spring Boot server
+
+```shell
+mvn spring-boot:run
+```
+
+== OpenAPI artefacts
+
+=== Open Swagger UI
+
+* http://localhost:8080/api-docs/ui
+
+== References
+
+* OpenAPI
+** https://www.openapis.org/
+** https://spec.openapis.org/oas/v3.2.0.html[OpenAPI Specification v3.2.0]
+** https://spec.openapis.org/oas/v3.1.0.html[OpenAPI Specification v3.1.0]
+* Swagger UI
+** https://swagger.io/tools/swagger-ui/[Swagger UI tool]
+** https://hub.docker.com/r/swaggerapi/swagger-ui[Docker image for hosting Swagger UI]
