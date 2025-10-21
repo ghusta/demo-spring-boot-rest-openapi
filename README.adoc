@@ -22,6 +22,10 @@ mvn spring-boot:run
 
 * http://localhost:8080/api-docs/ui
 
+=== Open OpenAPI spec
+
+* http://localhost:8080/api-docs
+
 == References
 
 * OpenAPI
