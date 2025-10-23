@@ -1,6 +1,6 @@
 = Demo project for Spring Boot + REST API + OpenAPI support
 :toc:
-:imagesdir: assets/images
+:imagesdir: media/images
 
 == Getting started
 
@@ -63,3 +63,9 @@ custom.external-swagger-ui.cors.allowed-origins=http://localhost:8090
 == Books
 
 * https://www.oreilly.com/library/view/designing-apis-with/9781617296284/[Designing APIs with Swagger and OpenAPI]
+
+== Big picture
+
+image::openapi_tooling_schema.png[caption="Figure 1: ",title="Creating and using OpenAPI definitions"]
+
+Source: _Designing APIs with Swagger and OpenAPI_
