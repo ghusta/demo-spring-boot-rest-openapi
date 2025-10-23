@@ -1,6 +1,7 @@
 = Demo project for Spring Boot + REST API + OpenAPI support
 :toc:
 :imagesdir: media/images
+:linkattrs:
 
 == Getting started
 
