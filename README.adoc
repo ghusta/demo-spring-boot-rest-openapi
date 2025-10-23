@@ -26,7 +26,8 @@ mvn spring-boot:run
 
 === Open OpenAPI spec
 
-* http://localhost:8080/api-docs
+* http://localhost:8080/api-docs (JSON format)
+* http://localhost:8080/api-docs.yaml (YAML format)
 
 == Using an external Swagger UI instance
 
