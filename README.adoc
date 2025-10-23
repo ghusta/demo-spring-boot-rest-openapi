@@ -59,3 +59,7 @@ custom.external-swagger-ui.cors.allowed-origins=http://localhost:8090
 * Swagger UI
 ** https://swagger.io/tools/swagger-ui/[Swagger UI tool]
 ** https://hub.docker.com/r/swaggerapi/swagger-ui[Docker image for hosting Swagger UI]
+
+== Books
+
+* https://www.oreilly.com/library/view/designing-apis-with/9781617296284/[Designing APIs with Swagger and OpenAPI]
