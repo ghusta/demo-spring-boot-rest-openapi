@@ -62,7 +62,7 @@ custom.external-swagger-ui.cors.allowed-origins=http://localhost:8090
 
 == Books
 
-* https://www.oreilly.com/library/view/designing-apis-with/9781617296284/[Designing APIs with Swagger and OpenAPI]
+* link:https://www.oreilly.com/library/view/designing-apis-with/9781617296284/[Designing APIs with Swagger and OpenAPI, window=_blank]
 
 == Big picture
 
