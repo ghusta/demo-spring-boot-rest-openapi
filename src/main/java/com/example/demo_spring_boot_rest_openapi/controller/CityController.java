@@ -4,6 +4,7 @@ import com.example.demo_spring_boot_rest_openapi.dao.CityRepository;
 import com.example.demo_spring_boot_rest_openapi.exception.ResourceNotFoundException;
 import com.example.demo_spring_boot_rest_openapi.persistence.City;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
@@ -36,7 +37,7 @@ public class CityController {
     }
 
     @GetMapping
-    public Page<City> getAllCitiesPaginated(@SortDefault() @PageableDefault(size = 100) Pageable pageable) {
+    public Page<City> getAllCitiesPaginated(@ParameterObject @SortDefault() @PageableDefault(size = 100) Pageable pageable) {
         return cityRepository.findAll(pageable);
     }
 
